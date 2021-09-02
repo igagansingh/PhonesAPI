@@ -1,7 +1,7 @@
 # PhonesAPI
 
 A simple project that performs CRUD + search operation for a phones database.
-The phones are loaded through a (script)[https://github.com/igagansingh/Phones-API-Data-ETL] that scrapes the data from a website.
+The phones are loaded through a [script](https://github.com/igagansingh/Phones-API-Data-ETL) that scrapes the data from a website.
 
 ### To do
 [x] Create setup
