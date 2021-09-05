@@ -9,6 +9,6 @@ services:
     image: visionarydevelopers/phonesapi:0.0.1-SNAPSHOT
     container_name: phonesapi
     ports:
-      - 8080:8080
+      - 9000:9000
     links:
       - phonesapimongodb
