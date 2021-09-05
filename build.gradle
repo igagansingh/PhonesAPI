@@ -39,5 +39,5 @@ dockerRun {
     clean true
 }
 dockerCompose {
-    dockerComposeFile 'src/main/resources/docker-compose.yml'
+    dockerComposeFile './src/main/resources/docker-compose.yml'
 }
