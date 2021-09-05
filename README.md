@@ -12,4 +12,4 @@ The phones are loaded through a [script](https://github.com/igagansingh/Phones-A
 - [] Add unit and integration test cases
 - [] Test and write postman suite
 - [] Host on a cloud platform
-- [] Implement CI/CD pipeline (In progress...)
+- [] Implement CI/CD pipeline (In progress)
