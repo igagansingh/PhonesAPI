@@ -1,0 +1,14 @@
+version: "3"
+services:
+  phonesapimongodb:
+    image: mongo:latest
+    container_name: "phonesapimongodb"
+    ports:
+      - 27017:27017
+  phonesapi:
+    image: visionarydevelopers/phonesapi:0.0.1-SNAPSHOT
+    container_name: phonesapi
+    ports:
+      - 8080:8080
+    links:
+      - phonesapimongodb
